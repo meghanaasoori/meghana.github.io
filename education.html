@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="footerstyle.css" />
+<style>
+div {
+  margin-bottom: 15px;
+  padding: 4px 12px;
+}
+
+.danger {
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+  color: black;
+}
+
+.success {
+  background-color: #ddffdd;
+  border-left: 6px solid #04AA6D;
+  color: black;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.card img {
+  width: 100%;
+  height: 200px; /* Adjust this value as needed */
+  object-fit: cover; /* This ensures the image covers the entire container */
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #b391c7;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Education</h1>
+  <div class="danger">
+  <p><strong>Bachelor's</strong> in Information Technology</p>
+</div>
+
+<div class="success">
+  <p><strong>Master's</strong> in Computer Science</p>
+</div>
+</div>
+
+<h2 style="text-align:center">Projects</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/parking.png" alt="Parking Management System" style="width:100%">
+      <div class="container">
+        <h2>Parking Management System</h2>
+        <p>Developed an efficient Parking Management System using Spring Tools, facilitating vehicle allocation and parking slot
+ management.<br />
+ •
+ Utilized ETL principles, Spring Framework, and MY SQL for seamless data management and user-friendly GUI
+ enhancement.<br />
+ •
+ Reduced congestion and improved parking operations, delivering actionable insights through comprehensive reporting.</p>
+       
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/aial.jpg" alt="aial" style="width:100%">
+      <div class="container">
+        <h2>Harvesting Insights: Leverging Machine Learning for improved agriculture yield prediction and variety management</h2>
+        <p>Solving Alternate Bearing Problem in pecans <br />
+Via machine learning, potential patterns in pistillate fruiting and subsequent catkin flowering the following season may be found to better understand alternate bearing (a phenomenon regularly demonstrated in Carya illinoinensis, the pecan)</p>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/panorama1.jpg" alt="panorama" style="width:100%">
+      <div class="container">
+        <h2>Robust Alignment of Panoramic Stitching via Exact Rank Constraint</h2>
+        <p> Engineered a cutting-edge panoramic image stitching system using Python, machine learning algorithms, and Flask web
+ framework.<br />
+ •
+ Seamlessly aligned images, employed machine learning techniques, and created an intuitive user interface.<br />
+ •
+ Showcased fusion of machine learning and web technologies for an innovative user experience.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+ <footer class="footer-distributed" id="footer">
+
+      <div class="footer-left">
+
+        <h3>Meghana<span>Asoori</span></h3>
+
+        <p class="footer-links">
+          <a href="index.html" class="link-1">Home</a>
+
+	<a href="#skills">Skills</a>
+          <a href="#">Education</a>
+          <a href="#hobbies">Hobbies</a>
+          <a href="#footer">Contact</a>
+        </p>
+
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Grad Lab</span> Science Hall, NMSU</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1 878-784-9367</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:meghanaasoori@gmail.com">meghanaasoori.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+	
+        <div class="footer-icons">
+  <a href="#" class="fab fa-facebook"><span>Facebook</span></a>
+<a href="https://github.com/meghana-20/github.io" class="fab fa-github"><span>Github</span></a>
+<a href="https://www.linkedin.com/in/asoori-meghana/" class="fab fa-linkedin"><span>Linkedin</span></a>
+<a href="#" class="fab fa-instagram"><span>Instagram</span></a>
+
+</div>
+
+
+      </div>
+
+    </footer>
+</body>
+</html>
